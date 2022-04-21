@@ -26,3 +26,10 @@ H:\SelfProjects\UkenChallenge\UkenChallenge\LeastFrequentNumber\LeastFrequentNum
 H:\SelfProjects\UkenChallenge\UkenChallenge\LeastFrequentNumber\LeastFrequentNumber\obj\Debug\LeastFrequentNumber.csproj.CoreCompileInputs.cache
 H:\SelfProjects\UkenChallenge\UkenChallenge\LeastFrequentNumber\LeastFrequentNumber\obj\Debug\MostFrequentNumber.exe
 H:\SelfProjects\UkenChallenge\UkenChallenge\LeastFrequentNumber\LeastFrequentNumber\obj\Debug\MostFrequentNumber.pdb
+H:\SelfProjects\UkenChallengeC#\LeastFrequentNumber\LeastFrequentNumber\bin\Debug\MostFrequentNumber.exe.config
+H:\SelfProjects\UkenChallengeC#\LeastFrequentNumber\LeastFrequentNumber\bin\Debug\MostFrequentNumber.exe
+H:\SelfProjects\UkenChallengeC#\LeastFrequentNumber\LeastFrequentNumber\bin\Debug\MostFrequentNumber.pdb
+H:\SelfProjects\UkenChallengeC#\LeastFrequentNumber\LeastFrequentNumber\obj\Debug\LeastFrequentNumber.csproj.AssemblyReference.cache
+H:\SelfProjects\UkenChallengeC#\LeastFrequentNumber\LeastFrequentNumber\obj\Debug\LeastFrequentNumber.csproj.CoreCompileInputs.cache
+H:\SelfProjects\UkenChallengeC#\LeastFrequentNumber\LeastFrequentNumber\obj\Debug\MostFrequentNumber.exe
+H:\SelfProjects\UkenChallengeC#\LeastFrequentNumber\LeastFrequentNumber\obj\Debug\MostFrequentNumber.pdb
