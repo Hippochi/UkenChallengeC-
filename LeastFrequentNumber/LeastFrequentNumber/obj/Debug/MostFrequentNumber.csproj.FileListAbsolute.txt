@@ -1,0 +1,7 @@
+H:\SelfProjects\UkenChallenge\MostFrequentNumber\MostFrequentNumber\bin\Debug\MostFrequentNumber.exe.config
+H:\SelfProjects\UkenChallenge\MostFrequentNumber\MostFrequentNumber\bin\Debug\MostFrequentNumber.exe
+H:\SelfProjects\UkenChallenge\MostFrequentNumber\MostFrequentNumber\bin\Debug\MostFrequentNumber.pdb
+H:\SelfProjects\UkenChallenge\MostFrequentNumber\MostFrequentNumber\obj\Debug\MostFrequentNumber.csproj.AssemblyReference.cache
+H:\SelfProjects\UkenChallenge\MostFrequentNumber\MostFrequentNumber\obj\Debug\MostFrequentNumber.csproj.CoreCompileInputs.cache
+H:\SelfProjects\UkenChallenge\MostFrequentNumber\MostFrequentNumber\obj\Debug\MostFrequentNumber.exe
+H:\SelfProjects\UkenChallenge\MostFrequentNumber\MostFrequentNumber\obj\Debug\MostFrequentNumber.pdb
