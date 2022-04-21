@@ -8,13 +8,13 @@ namespace LeastFrequentNumber
     {      
         static void Main(string[] args) //Creates the file path and filenames then passes these through to FileLoader
         {
-            string[] filesToLoad = {"5.txt",
+            string[] filesToLoad = {"5.txt", //file names
             "4.txt",
             "3.txt",
             "2.txt",
             "1.txt"
             };
-            string directory = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory()))) + "\\files";
+            string directory = Path.GetDirectoryName(Path.GetDirectoryName(Path.GetDirectoryName(Directory.GetCurrentDirectory()))) + "\\files"; // relative path from the .exe file
             FileLoader(filesToLoad, directory);
             Console.ReadLine();
         }
@@ -30,10 +30,12 @@ namespace LeastFrequentNumber
         static int[] ArrayFromFile(string filename) //takes a file that uses linebreaks as seperation,
                                                     //turns it into a string array that holds each line in its own string,
                                                     //then creates an array of ints to hold the converted ints from the strings
-        { 
+        {
+            if (File.Exists(filename) == false)
+                return null;
             System.IO.StreamReader reader =
                 new System.IO.StreamReader(filename);
-
+           
             string tempString = reader.ReadToEnd().Trim();
             string[] lines = (tempString.Split(new string[] { "\r\n", "\r", "\n" }, StringSplitOptions.None));
             reader.Close();
@@ -93,9 +95,12 @@ namespace LeastFrequentNumber
         {
             for (int i = 0; i <files.Length;i++)
             {
-                KeyValuePair<int, int> KVP = LeastFrequent(ArrayFromFile(path + "\\"+ files[i]));
-                WriteOutput(files[i], KVP.Key, KVP.Value);
-               
+                if (ArrayFromFile(path + "\\" + files[i]) != null)
+                {
+                    KeyValuePair<int, int> KVP = LeastFrequent(ArrayFromFile(path + "\\" + files[i]));
+                    WriteOutput(files[i], KVP.Key, KVP.Value);
+                }
+                
             }
         }
     }
